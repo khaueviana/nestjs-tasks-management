@@ -7,8 +7,8 @@ import { UsersRepository } from './users.repository';
 import { PassportModule } from '@nestjs/passport';
 import { JwtModule } from '@nestjs/jwt';
 import { JwtStrategy } from './jwt.strategy';
-import { ConfigurationModule } from 'src/config/config.module';
-import { ConfigurationService } from 'src/config/config.service';
+import { ConfigurationModule } from '../config/config.module';
+import { ConfigurationService } from '../config/config.service';
 
 @Module({
   imports: [
